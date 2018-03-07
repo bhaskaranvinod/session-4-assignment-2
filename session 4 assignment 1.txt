@@ -1,0 +1,9 @@
+session 4 assignment 1 - longest word length
+
+list1=[]
+def listfunction(l):
+    for words in l:
+        list1.append(len(str(words)))
+    return list1
+
+listfunction(["abc","deffgh","uiopyt"])
